@@ -1,0 +1,110 @@
+/* Navbar.css */
+.top-section {
+  background-color: #292e36;
+  padding: 20px 0;
+  text-align: center;
+}
+.logo {
+    width: 80px; /* Adjust the desired width */
+    height: auto; /* Adjust the height as needed, or remove this line to maintain aspect ratio */
+  }
+  
+  
+  .navbar {
+      width: 100%;
+      height: 200px;
+      background-color: #121619;
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .navbar .righttSide {
+      flex: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding-left: 150px;
+    }
+    
+    .navbar .rightSide img {
+      width: 70px;
+    }
+    
+    .navbar .leftSide {
+      flex: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 20px;
+    }
+    
+    .navbar .leftSide button {
+      background-color: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    
+    .navbar .leftSide svg {
+      font-size: 40px;
+    }
+    
+    .navbar #open {
+      padding-left: 0px;
+    }
+    .navbar #open img {
+      display: none;
+    }
+    
+    .navbar #close img {
+      display: inherit;
+    }
+    
+    
+    .navbar #open a {
+      width: 70px;
+      margin: 5px;
+    }
+     .socialMedia svg {
+    color: white;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+  }
+    @media only screen and (max-width: 900px) {
+      .navbar .leftSide a {
+        width: 70px;
+      }
+      .navbar .rightSide {
+        padding-left: 50px;
+      }
+    }
+    
+    @media only screen and (max-width: 600px) {
+      .navbar .leftSide a {
+        display: none;
+      }
+    
+      .navbar .leftSide {
+        justify-content: flex-end;
+        padding-right: 50px;
+      }
+    
+      .navbar .leftSide button {
+        display: inherit;
+      }
+    }
+    
+    @media only screen and (min-width: 600px) {
+      .navbar .leftSide button {
+        display: none;
+      }
+    
+      
+    }

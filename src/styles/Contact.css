@@ -1,0 +1,158 @@
+/* ContactUs.css */
+/* Top Section */
+.top-section {
+    background-color: #292e36;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .contact-button{
+    
+      border: 2px solid #e1b168;
+      color: #e1b168;
+      background-color: transparent;
+      padding: 10px 20px;
+      font-size: 18px;
+      margin-right: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    
+  }
+  .booking-button {
+    border: 2px solid #e1b168;
+    color: #e1b168;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .contact-button:hover,
+  .booking-button:hover {
+    background-color: #e1b168;
+    color: #292e36;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #292e36;
+    border-bottom: 2px solid #292e36;
+  }
+  
+  .navbar-brand {
+    color: #e1b168;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #ffff !important;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover,
+  .navbar-toggler-icon:hover {
+    color: #e1b168 !important;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #e1b168 !important;
+  }
+  
+  /* Contact Us Section */
+  .contact-us-section {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  .contact-info {
+    text-align: left;
+  }
+  
+  .contact-info h2 {
+    color: #292e36;
+    font-size: 28px;
+  }
+  
+  .contact-info p {
+    color: #292e36;
+  }
+  
+  .contact-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .contact-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #292e36;
+  }
+  
+  .contact-icon i {
+    margin-right: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #292e36;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    text-align: left;
+    padding-top: 20px;
+  }
+  
+  .contact-form h2 {
+    color: #292e36;
+    font-size: 28px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    border: 2px solid #e1b168;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .form-group textarea {
+    height: 120px;
+  }
+  
+  .form-group input[type="text"]:focus,
+  .form-group input[type="email"]:focus,
+  .form-group textarea:focus {
+    border-color: #292e36;
+  }
+  
+  .form-group button {
+    background-color: #e1b168;
+    color: #292e36;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .form-group button:hover {
+    background-color: #292e36;
+    color: #e1b168;
+  }
+  
