@@ -1,46 +1,68 @@
 import React from "react";
 import "../styles/Contact.css";
 import { Container, Row, Col, Button, Form } from 'react-bootstrap';
-import { BiInstagram, BiFacebook, BiTwitter, BiPinterest } from 'bootstrap-icons/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+import { FaInstagram, FaFacebook, FaTwitter, FaPinterest } from 'react-icons/fa';
 
 // Inside your component:
 
 
 function Contact() {
     return (
-        <div className="contact-us-section">
+      <div>
+      <div className="main-topic">
+      <hr className="line" />
+        <h1>Contact Us</h1>
+      <hr className="line" />
+  
+      </div>    
+
+      <div className="contact-us-section" >
         <Container>
           <Row>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} className="custom-background">
               <div className="contact-info">
                 <h2>Contact Information</h2>
-                <p>Your contact information paragraph goes here.</p>
+                <p>Bring the table winwin survival strategies ensure<br/> 
+                   proactive domination the end of the day<br/>  
+                   going real times multiple touchpoints.</p>
                 <div className="contact-icons">
                   <div className="contact-icon">
-                    <i className="bi bi-map-marker-alt"></i>
-                    <p>123 Main Street, City</p>
+                  <i className="fa fa-map-marker" aria-hidden="true"></i>
+                    <p>Riverside 25, San Francisco, California</p>
                   </div>
                   <div className="contact-icon">
-                    <i className="bi bi-envelope"></i>
-                    <p>contact@example.com</p>
+                  <i className="fa fa-envelope" aria-hidden="true"></i>
+                    <p>evamattew@mail.com</p>
                   </div>
                   <div className="contact-icon">
-                    <i className="bi bi-phone"></i>
-                    <p>+123 456 7890</p>
+                  <i className="fa fa-phone" aria-hidden="true"></i>
+                    <p>800-234-567</p>
                   </div>
                 </div>
                 <div className="social-icons">
-                  <i className="bi bi-instagram"></i>
-                  <i className="bi bi-facebook"></i>
-                  <i className="bi bi-twitter"></i>
-                  <i className="bi bi-pinterest"></i>
+                <Button className="social-button">
+                  <FaInstagram />
+                </Button>
+                <Button className="social-button">
+                  <FaFacebook />
+                </Button>
+                <Button className="social-button">
+                  <FaTwitter />
+                </Button>
+                <Button className="social-button">
+                  <FaPinterest />
+                </Button>
+
                 </div>
               </div>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} className="custom-background2">
               <div className="contact-form">
-                <h2>Have a Question?</h2>
+              <p>MAIL US</p>
+              
+                <h1>Have a Question?</h1>
                 <Form>
                   <Row>
                     <Col>
@@ -75,6 +97,7 @@ function Contact() {
             </Col>
           </Row>
         </Container>
+      </div>
       </div>
     );
   }

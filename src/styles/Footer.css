@@ -22,12 +22,7 @@
 }
 
 /* Styles for social media icons */
-.socialMedia svg {
-  color: white;
-  font-size: 30px; /* Adjust the icon size as needed */
-  margin: 10px; /* Adjust margin between icons */
-  cursor: pointer;
-}
+
 
 /* Style for text content */
 .footer p {
@@ -100,12 +95,13 @@
     padding: 5px;
   }
  .logo {
-  width: 30%;
-  max-height: 30%;
-  
-  padding-left: 0px;
-  padding-right: 0px;
-  
+  width: 70%;
+  max-height: 70%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
  }
 
  .row-horizontal {
@@ -113,3 +109,62 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.text-center h5{
+  color:#fff;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.socialMedia svg {
+  color: white;
+  margin: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Style the input box */
+input[type="text"] {
+  border: 1px solid white; /* Add a white border */
+  color: white; /* Set text color to white */
+  padding: 5px 10px;
+  height: 40%;
+  background-color: transparent;
+}
+
+/* Style the input placeholder */
+input[type="text"]::placeholder {
+  color: white; /* Set placeholder text color to white */
+}
+
+/* Style the button */
+button {
+  background-color: white; /* Set the button background to white */
+  color: #292e36; /* Set button text color to grey */
+  border: none; /* Remove button border */
+  padding: 5px 10px; /* Add padding for better spacing */
+  cursor: pointer;
+  height: 40%;
+}
+
+/* Change button color on hover */
+button:hover {
+  background-color: grey; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+.time h6{
+  color: white;
+  padding: 5px 10px;
+}
+.time p{
+  color: #e1b168;
+}
+
+.line {
+  border: 2px;
+  border-top: 2px solid grey;
+  width:100%;
+  margin: 10px auto;
+}
+

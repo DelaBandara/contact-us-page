@@ -67,6 +67,7 @@
   .contact-us-section {
     background-color: #fff;
     padding: 40px 0;
+    
   }
   
   .contact-info {
@@ -156,3 +157,118 @@
     color: #e1b168;
   }
   
+/* Contact.css */
+
+/* Style for the social icons container */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px; /* Add some margin if needed */
+}
+
+/* Style for the social icon buttons */
+.social-button {
+  background-color: rgb(184, 184, 184);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  color: #333; /* Default color for icons */
+}
+
+/* Style for the social icon buttons on hover */
+.social-button:hover {
+  color: #e1b168; /* Change this to your desired hover color */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.custom-background {
+  background-color: #f7f2e9;
+  padding: 30px;
+  width: 40%;
+  margin: 10px;
+}
+
+.custom-background2 {
+  background-color: white;
+  padding: 30px;
+  width: 50%;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .custom-background {
+    width: 80%;
+  }
+
+  .custom-background2 {
+    width: 80%;
+  }
+}
+
+
+
+.custom-background2 input[type="text"],
+.custom-background2 input[type="email"],
+.custom-background2 textarea {
+  border: 2px solid rgb(204, 199, 199); /* Grey square border */
+  padding: 10px; /* Padding between boxes and placeholders */
+  border-radius: 0%;
+  margin-bottom: 10px; /* Margin to create separation between text boxes */
+
+}
+
+.custom-background2 input[type="text"]::placeholder,
+.custom-background2 input[type="email"]::placeholder,
+.custom-background2 textarea::placeholder {
+  color: #292e36; /* Grey placeholder text */
+}
+
+.custom-background2 button {
+  border: 2px solid #e1b168; /* Gold border for the button */
+  background-color: transparent; /* Transparent background */
+  color: black; /* Text color */
+  padding: 10px 20px; /* Padding for the button */
+  cursor: pointer;
+  border-radius: 0%;
+}
+
+.custom-background2 button:hover {
+  background-color: #e1b168; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+.main-topic {
+  background-color: #292e36;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.line {
+  border: 2px;
+  border-top: 2px solid grey;
+  width:100%;
+  margin: 10px auto;
+}
+
+
+
+.main-topic h1 {
+  font-size: 48px; /* Adjust the font size as needed */
+  color: white; /* Text color */
+ 
+  
+}
+
+
+
+

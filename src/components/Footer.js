@@ -24,8 +24,10 @@ function Footer() {
                 <Col md={6} lg={4} className="text-center">    
                        <img src={Logo} alt="Logo" className="logo" />
                 </Col>
-                <Col md={6} lg={4} className="text-center">            
+                <Col md={6} lg={4} className="text-center"> 
+                <div className="socialMedia">           
                         <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <PinterestIcon />
+                </div>        
                 </Col>
             </Row>
             </Container>
@@ -42,22 +44,28 @@ function Footer() {
             </Col>
             <Col md={6} lg={4}>
 
-                        <p>Join our mailing list for updates, Get news & offers events</p>   
-                        <input type="text" placeholder="Subscribe" />
+                        <p>Join our mailing list for updates,<br/> Get news & offers events</p>   
+                        <input type="text" placeholder="Email" />
                         <button>Subscribe</button>
             
             </Col>
-            <Col md={6} lg={4}>
-                    <h5>WORKING HOURS</h5>
+            <Col md={6} lg={4} className="time">
+                    <h6>WORKING HOURS</h6>
                     <p>Contact Us 24/7</p>  
 
             </Col>
                
             </Row>
             </Container> 
+            
 
-                        
-                <p>&copy; OrionUX(Pvt)Ltd</p>    
+            <hr className="line"/>
+            
+                <p>&copy; OrionUX(Pvt)Ltd</p>
+            
+            
+                
+         
 
         </div>
                 
