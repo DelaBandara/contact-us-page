@@ -17,15 +17,18 @@ function Navbar() {
       return (
       <div>  
         <div className='top-section'>
-            <Container>
-              <Row>
-                
+            <Container>  
+              <Row className="justify-content-center">
+                <Col md={6} lg={4} className="text-center">
                   <Button variant="outline-warning" className="contact-button">Contact Us Now</Button>
-                
+                </Col>
+                <Col md={6} lg={4} className="text-center">
                   <img src={Logo} alt="Logo" className="logo" />
-        
+                </Col>
+                <Col md={6} lg={4} className="text-center">
                   <Button variant="outline-warning" className="booking-button">Booking Now</Button>
-                
+                </Col>
+
               </Row>
             </Container>
 

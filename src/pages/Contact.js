@@ -1,7 +1,8 @@
 import React from "react";
 import "../styles/Contact.css";
 import { Container, Row, Col, Button, Form } from 'react-bootstrap';
-
+import { BiInstagram, BiFacebook, BiTwitter, BiPinterest } from 'bootstrap-icons/react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Inside your component:
 
