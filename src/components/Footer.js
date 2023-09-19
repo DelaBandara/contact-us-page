@@ -23,7 +23,7 @@ function Footer() {
                 <Col md={6} lg={3} className="text-center mt-5">
                         <Link to><h5>Instagram Feed</h5></Link>
                 </Col>
-                <Col md={6} lg={5} className="text-center">    
+                <Col md={6} lg={4} className="text-center">    
                        <img src={Logo} alt="Logo" className="logo" />
                 </Col>
                 <Col md={6} lg={4} className="text-center mt-5"> 

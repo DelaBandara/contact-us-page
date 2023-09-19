@@ -10,8 +10,7 @@
   align-items: center;
   flex-direction: column;
   padding: 20px;
-  font-family: 'Josefin Sans', sans-serif; /* Add padding to the entire footer */
-}
+  font-family: 'JosefinSans-Bold';}
 
 /* Style for individual footer items */
 .footer-item {
@@ -20,8 +19,7 @@
   align-items: center;
   text-align: center;
   margin: 20px;
-  font-family: 'Josefin Sans', sans-serif; /* Adjust margin between items */
-}
+  font-family: 'JosefinSans-Bold';}
 
 
 /* Styles for social media icons */
@@ -31,8 +29,7 @@
 .footer p {
   color: white;
   margin: 5px 0;
-  font-family: 'Josefin Sans', sans-serif;
-
+  font-family: 'JosefinSans-Bold';
  
 }
 
@@ -78,6 +75,7 @@
     text-align: left;
     margin-bottom: 20px;
     align-content:end;
+    
   }
 
   .contact-details p,
@@ -85,9 +83,11 @@
     color: #e1b168;
     margin: 0;
     text-align: left;
+    font-family: 'JosefinSans-Bold';
   }
   .contact-details{
     text-align: left;
+    font-family: 'JosefinSans-Bold';
   }
   
   .top-section {
@@ -97,6 +97,7 @@
     background-color: #292e36;
     color: #fff;
     padding: 5px;
+    font-family: 'JosefinSans-Bold';
     
   }
 
@@ -129,6 +130,7 @@
   color:#fff;
   text-decoration: underline;
   text-decoration-color: white;
+  font-family: 'JosefinSans-Bold';
 }
 
 .socialMedia svg {
@@ -145,15 +147,14 @@ input[type="textft"] {
   padding: 5px 10px;
   height: 40%;
   background-color: transparent;
-  font-family: 'Josefin Sans';
-  width: 100px;
+  font-family: 'JosefinSans-Bold';
+    width: 100px;
 }
 
 /* Style the input placeholder */
 input[type="textft"]::placeholder {
   color: white; /* Set placeholder text color to white */
-  font-family: 'Josefin Sans';
-}
+  font-family: 'JosefinSans-Bold';}
 
 /* Style the button */
 button {
@@ -178,12 +179,10 @@ button:hover {
 .time h6{
   color: white;
   padding: 5px 10px;
-  font-family: 'Josefin Sans', sans-serif;
-}
+  font-family: 'JosefinSans-Bold';}
 .time p{
   color: #e1b168;
-  font-family: 'Josefin Sans', sans-serif;
-}
+  font-family: 'JosefinSans-Bold';}
 
 .line {
   border: 2px;

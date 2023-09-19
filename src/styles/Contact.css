@@ -51,6 +51,7 @@
   
   .contact-info {
     text-align: left;
+    
   }
   
   .contact-info h2 {
@@ -63,7 +64,7 @@
   
   .contact-info p {
     color: #292e36;
-    font-family: 'JosefinSans';
+    font-family: 'JosefinSans-Bold';    
 
     
   }
@@ -93,12 +94,15 @@
   .social-icons {
     display: flex;
     margin-top: 20px;
+    
+    
   }
   
   .social-icons i {
     font-size: 24px;
     margin-right: 10px;
     color: #292e36;
+    
   }
   
   /* Contact Form */
@@ -113,6 +117,9 @@
     font-family: 'CormorantInfant';
 
   }
+  .contact-form p{
+    font-family: 'JosefinSans-Bold';
+  }
   
   .form-group input,
   .form-group textarea {
@@ -121,6 +128,7 @@
     padding: 10px;
     margin-bottom: 10px;
     width: 100%;
+    
   }
   
   .form-group textarea {
@@ -131,6 +139,7 @@
   .form-group input[type="email"]:focus,
   .form-group textarea:focus {
     border-color: #292e36;
+    
   }
   
   .form-group button {
@@ -154,18 +163,22 @@
 .social-icons {
   display: flex;
   gap: 10px;
-  margin-top: 10px; /* Add some margin if needed */
+  margin-top: 10px;
+  
 }
 
 /* Style for the social icon buttons */
 .social-button {
-  background-color: rgb(184, 184, 184);
+  width: 40px; /* Set the width and height to the same value for a circular button */
+  height: 40px;
+  background-color: rgb(216, 212, 212);
   border: none;
   border-radius: 50%;
   padding: 10px;
   cursor: pointer;
   transition: color 0.3s ease-in-out;
-  color: #333; /* Default color for icons */
+  color: #333; 
+  
 }
 
 /* Style for the social icon buttons on hover */
@@ -186,7 +199,8 @@
   margin: 10px;
 }
 .custom-background p{
-  font-family: 'JosefinSans';
+  font-family: 'JosefinSans-Bold';
+  color: #555555;
 
 }
 
@@ -195,6 +209,7 @@
   padding: 30px;
   width: 50%;
   margin: 10px;
+  font-family: 'JosefinSans-Bold';
 }
 
 @media (max-width: 768px) {
@@ -263,11 +278,7 @@
   font-family: 'CormorantInfant';  
 }
 
-.contact-content-scrollable {
-  max-height: 400px; /* Set the maximum height for scrolling */
-  overflow-y: auto; /* Enable vertical scrolling when content exceeds the height */
-  padding-right: 15px; /* Add a bit of padding to avoid content being hidden behind the scrollbar */
-}
+
 
 
 
