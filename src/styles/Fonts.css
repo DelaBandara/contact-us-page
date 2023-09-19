@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'CormorantInfant';
+    src:
+    url('../fonts/CormorantInfant-Bold.ttf') format('ttf'),
+         url('../fonts/CormorantInfant-BoldItalic.ttf') format('ttf'),
+         url('../fonts/CormorantInfant-Italic.ttf') format('ttf'),
+         url('../fonts/CormorantInfant-LightItalic.ttf') format('ttf'),
+         url('../fonts/CormorantInfant-Medium.ttf') format('ttf'),
+         url('../fonts/CormorantInfant-Regular.ttf') format('ttf');
+}  
+
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: 
+         url('../fonts/jose/JosefinSans-Italic-VariableFont_wght.ttf') format('ttf'),
+         url('../fonts/jose/JosefinSans-VariableFont_wght.ttf') format('ttf');
+         
+  }
+
+
+  

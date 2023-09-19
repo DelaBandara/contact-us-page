@@ -8,10 +8,12 @@ import PinterestIcon from '@mui/icons-material/Pinterest';
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
+import "../styles/Fonts.css"; 
 
 
 
 function Navbar() {
+
     
     
       return (
@@ -20,7 +22,7 @@ function Navbar() {
             <Container>  
               <Row className="justify-content-center">
                 <Col md={6} lg={4} className="text-center">
-                  <Button variant="outline-warning" className="contact-button">Contact Us Now</Button>
+                <Button variant="outline-warning" className="contact-button">Contact Us Now</Button>
                 </Col>
                 <Col md={6} lg={4} className="text-center">
                   <img src={Logo} alt="Logo" className="logo" />
@@ -34,24 +36,34 @@ function Navbar() {
 
         </div>
 
-        <div className="navbar">
+        
+        
 
-            <div className="leftSide">
+        <div className="navbar">
+        
+        <hr className="line" />
+        <div className="leftSide">
+            
+            
                 <Link to="/">Home</Link>
                 <Link to="/menu">Plan a Trip</Link>
                 <Link to="/about">About</Link>
                 <Link to="/contact">Booking</Link>
                 <Link to="/contact">Contact</Link>
+                </div>        
+               
             
-            </div>
+             
 
             <div className="rightSide" >
               <div className="socialMedia">
                 <InstagramIcon /> <FacebookIcon /> <TwitterIcon />  <PinterestIcon />
               </div>
             </div>
-
+            <hr className="line" />
         </div>
+        
+        
     
       </div>   
         );

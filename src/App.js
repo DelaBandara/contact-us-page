@@ -7,12 +7,15 @@ import Plan_a_Trip from "./pages/Plan a Trip";
 import Booking from "./pages/Booking";
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import './App.css';
+import "./styles/Fonts.css"; 
 
 
 function App() {
   return (
+    
    <div>
-      
+    
+   
       
         <div className="App">
           <Router>
@@ -28,8 +31,11 @@ function App() {
               <Footer/> 
           </Router> 
         </div>
+        
+       </div>
+       
       
-    </div>
+    
 
   );
 }

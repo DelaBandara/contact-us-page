@@ -4,6 +4,7 @@ import { Container, Row, Col, Button, Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import { FaInstagram, FaFacebook, FaTwitter, FaPinterest } from 'react-icons/fa';
+import "../styles/Fonts.css"; 
 
 // Inside your component:
 
@@ -12,11 +13,13 @@ function Contact() {
     return (
       <div>
       <div className="main-topic">
-      <hr className="line" />
+      
         <h1>Contact Us</h1>
-      <hr className="line" />
+      
   
       </div>    
+      
+
 
       <div className="contact-us-section" >
         <Container>
@@ -97,6 +100,7 @@ function Contact() {
             </Col>
           </Row>
         </Container>
+        
       </div>
       </div>
     );
