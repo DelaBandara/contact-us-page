@@ -1,4 +1,4 @@
-/* Navbar.css */
+
 .top-section {
   background-color: #292e36;
   padding: 20px 0;
@@ -57,13 +57,11 @@
       background-color: transparent;
       border: none;
       color: white;
-      cursor: pointer;
-      
+      cursor: pointer; 
       
     }
 
-   
-    
+      
     .navbar .leftSide svg {
       font-size: 40px;
     }
@@ -94,14 +92,14 @@
     }
   
   .text-center .contact-button{
-    height: 50px; /* Adjust the height as needed */
+    height: 50px; 
     width: 80%;
     border-radius: 0;
     padding: 7% 10%;
     border-color: #e1b168;
     color: white;
     transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out;
-    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    white-space: nowrap;
     text-overflow: ellipsis;
     line-height: 1.2;
     margin: 50px 20px;
@@ -111,14 +109,14 @@
     
   }
   .text-center .booking-button{
-    height: 50px; /* Adjust the height as needed */
+    height: 50px;
     width: 80%;
     border-radius: 0;
     padding: 7% 10%;
     border-color: #e1b168;
     color: white;
     transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out;
-    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    white-space: nowrap; 
     text-overflow: ellipsis;
     line-height: 1.2;
     margin: 50px 20px; 
@@ -131,7 +129,7 @@
 
   .text-center button:hover {
     background-color: #e1b168;
-    padding: 9% 10%; /* Adjust the padding as needed */
+    padding: 9% 10%; 
     color: #292e36;
     text-overflow: initial;
      
@@ -142,15 +140,15 @@
 
 .contact-button,
 .booking-button {
-  height: 50px; /* Adjust the height as needed */
+  height: 50px; 
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   white-space: nowrap;
-  padding: 0 20px; /* Adjust the padding as needed */
-  font-size: 16px; /* Adjust the initial font size as needed */
-  max-width: 100%; /* Allow the text to shrink to fit the button */
+  padding: 0 20px;
+  font-size: 16px; 
+  max-width: 100%; 
 }
 
 

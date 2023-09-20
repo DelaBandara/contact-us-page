@@ -6,16 +6,13 @@ import 'font-awesome/css/font-awesome.min.css';
 import { FaInstagram, FaFacebook, FaTwitter, FaPinterest } from 'react-icons/fa';
 import "../styles/Fonts.css"; 
 
-// Inside your component:
-
 
 function Contact() {
     return (
       <div>
       <div className="main-topic">
       
-        <h1>Contact Us</h1>
-      
+      <hr/> <h1>Contact Us</h1><hr/>
   
       </div>    
       
@@ -63,7 +60,7 @@ function Contact() {
             </Col>
             <Col xs={12} md={6} className="custom-background2">
               <div className="contact-form">
-              <p>MAIL US</p>
+              <hr/><p>MAIL US</p><hr/>
               
                 <h1>Have a Question?</h1>
                 <Form>

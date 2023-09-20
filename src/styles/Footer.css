@@ -1,9 +1,6 @@
-/* Footer.css */
 
-/* The container for the entire footer */
 .footer {
   width: 100%;
-  /* Adjust height as needed */
   background-color: #292e36;
   display: flex;
   justify-content: space-between;
@@ -12,7 +9,6 @@
   padding: 20px;
   font-family: 'JosefinSans-Bold';}
 
-/* Style for individual footer items */
 .footer-item {
   display: flex;
   flex-direction: column;
@@ -22,10 +18,8 @@
   font-family: 'JosefinSans-Bold';}
 
 
-/* Styles for social media icons */
 
 
-/* Style for text content */
 .footer p {
   color: white;
   margin: 5px 0;
@@ -33,11 +27,16 @@
  
 }
 
+
 .contact-details ul {
   text-align: left;
   margin-bottom: 10px;
+  margin-top: 100px;
   align-content: start;
   list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+
   
 }
 .subscribe-box {
@@ -69,6 +68,7 @@
 .subscribe-box button:hover {
   background-color: #292e36;
   color: #e1b168;
+  transition: none;
 }
 
 .contact-details .working-hours {
@@ -113,7 +113,7 @@
   width: 100%;
   max-height: 100%;
   padding-top: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 0px;
@@ -138,51 +138,63 @@
   margin: 10px;
   font-size: 30px;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
-/* Style the input box */
 input[type="textft"] {
-  border: 1px solid white; /* Add a white border */
-  color: white; /* Set text color to white */
+  border: 1px solid white; 
+  color: white; 
   padding: 5px 10px;
-  height: 40%;
+  height: 40px;
   background-color: transparent;
   font-family: 'JosefinSans-Bold';
-    width: 100px;
+  width:60%;
+  margin-top: 10px;
 }
 
-/* Style the input placeholder */
 input[type="textft"]::placeholder {
-  color: white; /* Set placeholder text color to white */
+  color: white; 
   font-family: 'JosefinSans-Bold';}
 
-/* Style the button */
 button {
-  background-color: white; /* Set the button background to white */
+  background-color: white; 
   color: #292e36;
   border: #fff solid;
-  padding: 5px 10px; /* Add padding for better spacing */
+  padding: 5px 10px; 
   cursor: pointer;
-  height: 40%;
+  height: 40px;
   font-family: 'Josefin Sans';
-  width: 90px;
+  
 }
 
-/* Change button color on hover */
 button:hover {
-  background-color: #e1b168; /* Change background color on hover */
+  background-color: #e1b168; 
   color: black;
+  height: 40px;
   
-  /* Change text color on hover */
+  transition: none;
+  
+  
 }
 
 .time h6{
   color: white;
   padding: 5px 10px;
-  font-family: 'JosefinSans-Bold';}
+  font-family: 'JosefinSans-Bold';
+  margin-top: 100px;
+  margin-right:0;
+  margin-left: 50px;
+}
+  
+
 .time p{
   color: #e1b168;
-  font-family: 'JosefinSans-Bold';}
+  font-family: 'JosefinSans-Bold';
+  margin-right:0;
+  margin-left: 50px;
+
+}
+
 
 .line {
   border: 2px;
@@ -196,4 +208,25 @@ button:hover {
 .color {
   color:#e1b168;
   text-decoration: none;
+}
+.contact-details hr{
+  
+  color: #e1b168;
+  display: inline-block;
+  position: relative;
+  margin:0;
+  height: 10px;
+  width:40%;
+  
+}
+.time hr{
+  
+  color: #e1b168;
+  display: inline-block;
+  position: relative;
+  padding:0;
+  margin: 0;
+  height: 0px;
+  width:50%;
+  
 }

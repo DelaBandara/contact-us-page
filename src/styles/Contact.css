@@ -1,5 +1,4 @@
-/* ContactUs.css */
-/* Top Section */
+
 .top-section {
     background-color: #292e36;
     padding: 20px 0;
@@ -14,7 +13,7 @@
     color: #292e36;
   }
   
-  /* Navigation Bar */
+  
   .navbar {
     background-color: #292e36;
     border-bottom: 2px solid #292e36;
@@ -42,7 +41,7 @@
     background-color: #e1b168 !important;
   }
   
-  /* Contact Us Section */
+  
   .contact-us-section {
     background-color: #fff;
     padding: 40px 0;
@@ -105,7 +104,7 @@
     
   }
   
-  /* Contact Form */
+
   .contact-form {
     text-align: left;
     padding-top: 5px;
@@ -119,6 +118,8 @@
   }
   .contact-form p{
     font-family: 'JosefinSans-Bold';
+    padding:0;
+    margin: 0;
   }
   
   .form-group input,
@@ -157,9 +158,7 @@
     color: #e1b168;
   }
   
-/* Contact.css */
 
-/* Style for the social icons container */
 .social-icons {
   display: flex;
   gap: 10px;
@@ -167,9 +166,9 @@
   
 }
 
-/* Style for the social icon buttons */
+
 .social-button {
-  width: 40px; /* Set the width and height to the same value for a circular button */
+  width: 40px; 
   height: 40px;
   background-color: rgb(216, 212, 212);
   border: none;
@@ -181,9 +180,8 @@
   
 }
 
-/* Style for the social icon buttons on hover */
 .social-button:hover {
-  color: #e1b168; /* Change this to your desired hover color */
+  color: #e1b168; 
 }
 .container {
   display: flex;
@@ -196,6 +194,7 @@
   background-color: #f7f2e9;
   padding: 30px;
   width: 40%;
+  height: 100%;
   margin: 10px;
 }
 .custom-background p{
@@ -208,6 +207,7 @@
   background-color: white;
   padding: 30px;
   width: 50%;
+  height: 100%;
   margin: 10px;
   font-family: 'JosefinSans-Bold';
 }
@@ -218,11 +218,13 @@
   }
 
   .custom-background {
-    width: 80%;
+    width: 100%;
+    height: 100%;
   }
 
   .custom-background2 {
-    width: 80%;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -231,31 +233,34 @@
 .custom-background2 input[type="text"],
 .custom-background2 input[type="email"],
 .custom-background2 textarea {
-  border: 2px solid rgb(204, 199, 199); /* Grey square border */
-  padding: 10px; /* Padding between boxes and placeholders */
+  border: 2px solid rgb(204, 199, 199); 
+  padding: 10px; 
   border-radius: 0%;
-  margin-bottom: 10px; /* Margin to create separation between text boxes */
+  margin-bottom: 10px;
+  height: 100%;
+  width:100%; 
 
 }
 
 .custom-background2 input[type="text"]::placeholder,
 .custom-background2 input[type="email"]::placeholder,
 .custom-background2 textarea::placeholder {
-  color: #292e36; /* Grey placeholder text */
+  color: #292e36;
+  
 }
 
 .custom-background2 button {
-  border: 2px solid #e1b168; /* Gold border for the button */
-  background-color: transparent; /* Transparent background */
-  color: black; /* Text color */
-  padding: 10px 20px; /* Padding for the button */
+  border: 2px solid #e1b168; 
+  background-color: transparent; 
+  color: black; 
+  padding: 10px 20px;
   cursor: pointer;
   border-radius: 0%;
 }
 
 .custom-background2 button:hover {
-  background-color: #e1b168; /* Change background color on hover */
-  color: white; /* Change text color on hover */
+  background-color: #e1b168; 
+  color: white; 
 }
 .main-topic {
   background-color: #292e36;
@@ -271,10 +276,34 @@
 }
 
 
+.main-topic hr{
+  
+  color: #e1b168;
+  display: inline-block;
+  position: relative;
+  margin:0;
+  height: 10px;
+  width:30%;
+  
+}
+
+.contact-form hr{
+  
+  color: #f89500;
+  display: inline-block;
+  position: relative;
+  margin:0;
+  height: 15px;
+  width:30%;
+  
+  
+}
+
+
 
 .main-topic h1 {
-  font-size: 48px; /* Adjust the font size as needed */
-  color: white; /* Text color */
+  font-size: 48px; 
+  color: white; 
   font-family: 'CormorantInfant';  
 }
 
