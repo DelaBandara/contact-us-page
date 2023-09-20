@@ -60,8 +60,7 @@
       cursor: pointer; 
       
     }
-
-      
+    
     .navbar .leftSide svg {
       font-size: 40px;
     }
@@ -198,4 +197,20 @@
     
       
     }
+
+.navbar .leftSide a {
+  color: white; 
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; 
+}
+
+.navbar .leftSide a.active-link {
+  color: #e1b168; 
+}
+
+.navbar .leftSide a:hover {
+  color: #e1b168; 
+}
+
+    
 

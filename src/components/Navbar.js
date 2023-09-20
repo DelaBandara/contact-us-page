@@ -9,6 +9,8 @@ import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import "../styles/Fonts.css"; 
+import { NavLink } from 'react-router-dom';
+
 
 
 
@@ -22,7 +24,9 @@ function Navbar() {
             <Container>  
               <Row className="justify-content-center">
                 <Col md={6} lg={4} className="text-center">
+                  <Link to ="/contact">
                 <Button variant="outline-warning" className="contact-button">Contact Us Now</Button>
+                  </Link>
                 </Col>
                 <Col md={6} lg={4} className="text-center">
                   <img src={Logo} alt="Logo" className="logo" />
@@ -45,11 +49,21 @@ function Navbar() {
         <div className="leftSide">
             
             
-                <Link to="/">Home</Link>
-                <Link to="/menu">Plan a Trip</Link>
-                <Link to="/about">About</Link>
-                <Link to="/contact">Booking</Link>
-                <Link to="/contact">Contact</Link>
+                <NavLink exact to="/" activeClassName="active-link">
+                  Home
+                </NavLink>
+                <NavLink to="/planatrip" activeClassName="active-link">
+                  Plan a Trip
+                  </NavLink>
+                  <NavLink to="/about" activeClassName="active-link">
+                  About
+                  </NavLink>
+                  <NavLink to="/booking" activeClassName="active-link">
+                  Booking
+                  </NavLink>
+                  <NavLink to="/contact" activeClassName="active-link">
+                  Contact
+                  </NavLink>
                 </div>        
                
             
