@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/contact-us-page/static/css/main.2ef969fb.css",
-    "main.js": "/contact-us-page/static/js/main.1521faed.js",
+    "main.css": "/contact-us-page/static/css/main.676027a6.css",
+    "main.js": "/contact-us-page/static/js/main.775c0ffd.js",
     "static/js/787.4c89bdfc.chunk.js": "/contact-us-page/static/js/787.4c89bdfc.chunk.js",
     "static/media/CormorantInfant-Bold.ttf": "/contact-us-page/static/media/CormorantInfant-Bold.14a69efd2d6a7f1a1c6b.ttf",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/contact-us-page/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -12,12 +12,12 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/contact-us-page/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/lgo.png": "/contact-us-page/static/media/lgo.606309c9e015e51b2640.png",
     "index.html": "/contact-us-page/index.html",
-    "main.2ef969fb.css.map": "/contact-us-page/static/css/main.2ef969fb.css.map",
-    "main.1521faed.js.map": "/contact-us-page/static/js/main.1521faed.js.map",
+    "main.676027a6.css.map": "/contact-us-page/static/css/main.676027a6.css.map",
+    "main.775c0ffd.js.map": "/contact-us-page/static/js/main.775c0ffd.js.map",
     "787.4c89bdfc.chunk.js.map": "/contact-us-page/static/js/787.4c89bdfc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ef969fb.css",
-    "static/js/main.1521faed.js"
+    "static/css/main.676027a6.css",
+    "static/js/main.775c0ffd.js"
   ]
 }
